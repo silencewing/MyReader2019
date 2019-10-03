@@ -11,7 +11,7 @@
     <string name="synt_success">合成音效成功^^</string>
     <string name="synt_fail">合成音效失败T^T</string>
     <string name="msc_key">合成音效失败T^T</string>
-    <string name="help_message">《：快退；\n》：快进；\n文件：浏览文件；\nX：关屏幕；\n>：播放/停止；\n历：历史文件；\n位：快速定位及搜索；\n音：媒体音量控制；\n注：注册/取消媒体键监听；\n擎：设置TTS引擎；\n设：高级设置；\n菜单键：切换全屏；\n返回键：退出程序；\n双击屏幕：加载最近文件/播放/停止；\n单击屏幕边缘：上/下翻页；\n长按：播放指定句子。\n欢迎使用偶读。[@邱伟_V]</string>
+    <string name="help_message">《：快退；\n》：快进；\n文件：浏览文件；\nX：关屏幕；\n>：播放/停止；\n历：历史文件；\n位：快速定位及搜索；\n音：媒体音量控制；\n注：注册/取消媒体键监听；\n擎：设置TTS引擎；\n设：高级设置；\n菜单键：切换全屏；\n返回键：退出程序；\n双击屏幕：加载最近文件/播放/停止；\n单击屏幕边缘：上/下翻页；\n长按：播放指定句子。\n欢迎使用偶读。[silencewing]</string>
     <string name="help_title">说明</string>
     <string name="help_ok">确定</string>
     <string name="ready_back">再按一次将退出程序。</string>

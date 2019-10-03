@@ -1,0 +1,225 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/uiDesigner.xml
+* .idea/workspace.xml
+* MyReader.iml
+* ant.properties
+* build.xml
+* out/
+* out/production/
+* out/production/AndroidTtsSample/
+* out/production/AndroidTtsSample/AndroidTtsSample.apk
+* out/production/AndroidTtsSample/AndroidTtsSample.apk.res
+* out/production/AndroidTtsSample/AndroidTtsSample.apk.unaligned
+* out/production/AndroidTtsSample/classes.dex
+* out/production/AndroidTtsSample/org/
+* out/production/AndroidTtsSample/org/join/
+* out/production/AndroidTtsSample/org/join/tts/
+* out/production/AndroidTtsSample/org/join/tts/sample/
+* out/production/AndroidTtsSample/org/join/tts/sample/BuildConfig.class
+* out/production/AndroidTtsSample/org/join/tts/sample/FileBrowserActivity$1.class
+* out/production/AndroidTtsSample/org/join/tts/sample/FileBrowserActivity.class
+* out/production/AndroidTtsSample/org/join/tts/sample/R$attr.class
+* out/production/AndroidTtsSample/org/join/tts/sample/R$drawable.class
+* out/production/AndroidTtsSample/org/join/tts/sample/R$id.class
+* out/production/AndroidTtsSample/org/join/tts/sample/R$layout.class
+* out/production/AndroidTtsSample/org/join/tts/sample/R$string.class
+* out/production/AndroidTtsSample/org/join/tts/sample/R.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsFatherActivity$1.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsFatherActivity$2.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsFatherActivity$3.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsFatherActivity$MySimpleGesture.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsFatherActivity.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsSampleActivity$1.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsSampleActivity$2.class
+* out/production/AndroidTtsSample/org/join/tts/sample/TtsSampleActivity.class
+* out/production/AndroidTtsSample/org/join/tts/sample/util/
+* out/production/AndroidTtsSample/org/join/tts/sample/util/GlobalUtil$1.class
+* out/production/AndroidTtsSample/org/join/tts/sample/util/GlobalUtil$AnimMode.class
+* out/production/AndroidTtsSample/org/join/tts/sample/util/GlobalUtil$GlobalUtilHolder.class
+* out/production/AndroidTtsSample/org/join/tts/sample/util/GlobalUtil.class
+* out/production/AndroidTtsSample/org/join/tts/sample/widget/
+* out/production/AndroidTtsSample/org/join/tts/sample/widget/FileBrowser$1.class
+* out/production/AndroidTtsSample/org/join/tts/sample/widget/FileBrowser$FileListAdapter.class
+* out/production/AndroidTtsSample/org/join/tts/sample/widget/FileBrowser.class
+* out/production/AndroidTtsSample/org/join/tts/sample/widget/OnFileBrowserListener.class
+* out/production/MyReader/
+* out/production/MyReader/MyReader.apk
+* out/production/MyReader/MyReader.unaligned.apk
+* out/production/MyReader/cn/
+* out/production/MyReader/cn/org/
+* out/production/MyReader/cn/org/silencewing/
+* out/production/MyReader/cn/org/silencewing/BuildConfig.class
+* out/production/MyReader/cn/org/silencewing/FileBrowserActivity.class
+* out/production/MyReader/cn/org/silencewing/MainActivity.class
+* out/production/MyReader/cn/org/silencewing/MyTextToSpeech.class
+* out/production/MyReader/cn/org/silencewing/R$attr.class
+* out/production/MyReader/cn/org/silencewing/R$drawable.class
+* out/production/MyReader/cn/org/silencewing/R$id.class
+* out/production/MyReader/cn/org/silencewing/R$layout.class
+* out/production/MyReader/cn/org/silencewing/R$string.class
+* out/production/MyReader/cn/org/silencewing/R.class
+* out/production/MyReader/cn/org/silencewing/TtsActivity.class
+* out/production/MyReader/cn/org/silencewing/reader/
+* out/production/MyReader/cn/org/silencewing/reader/BuildConfig.class
+* out/production/MyReader/cn/org/silencewing/reader/FileBrowserActivity$1.class
+* out/production/MyReader/cn/org/silencewing/reader/FileBrowserActivity.class
+* out/production/MyReader/cn/org/silencewing/reader/Intents.class
+* out/production/MyReader/cn/org/silencewing/reader/MyTextToSpeech$1.class
+* out/production/MyReader/cn/org/silencewing/reader/MyTextToSpeech.class
+* out/production/MyReader/cn/org/silencewing/reader/PlayService$Intents.class
+* out/production/MyReader/cn/org/silencewing/reader/PlayService.class
+* out/production/MyReader/cn/org/silencewing/reader/R$attr.class
+* out/production/MyReader/cn/org/silencewing/reader/R$color.class
+* out/production/MyReader/cn/org/silencewing/reader/R$drawable.class
+* out/production/MyReader/cn/org/silencewing/reader/R$id.class
+* out/production/MyReader/cn/org/silencewing/reader/R$layout.class
+* out/production/MyReader/cn/org/silencewing/reader/R$string.class
+* out/production/MyReader/cn/org/silencewing/reader/R$style.class
+* out/production/MyReader/cn/org/silencewing/reader/R$xml.class
+* out/production/MyReader/cn/org/silencewing/reader/R.class
+* out/production/MyReader/cn/org/silencewing/reader/ReadActivity$1.class
+* out/production/MyReader/cn/org/silencewing/reader/ReadActivity$2.class
+* out/production/MyReader/cn/org/silencewing/reader/ReadActivity$3.class
+* out/production/MyReader/cn/org/silencewing/reader/ReadActivity.class
+* out/production/MyReader/cn/org/silencewing/reader/SettingActivity$1.class
+* out/production/MyReader/cn/org/silencewing/reader/SettingActivity$2.class
+* out/production/MyReader/cn/org/silencewing/reader/SettingActivity$3.class
+* out/production/MyReader/cn/org/silencewing/reader/SettingActivity.class
+* out/production/MyReader/cn/org/silencewing/reader/util/
+* out/production/MyReader/cn/org/silencewing/reader/util/AdminReceiver.class
+* out/production/MyReader/cn/org/silencewing/reader/util/AudioListener.class
+* out/production/MyReader/cn/org/silencewing/reader/util/AudioReceiver.class
+* out/production/MyReader/cn/org/silencewing/reader/util/CommandReceiver.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GestureListener$1.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GestureListener.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GlobalConfig.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GlobalUtil$1.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GlobalUtil$AnimMode.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GlobalUtil$GlobalUtilHolder.class
+* out/production/MyReader/cn/org/silencewing/reader/util/GlobalUtil.class
+* out/production/MyReader/cn/org/silencewing/reader/util/HomeKeyReceiver.class
+* out/production/MyReader/cn/org/silencewing/reader/util/IndexHelper.class
+* out/production/MyReader/cn/org/silencewing/reader/util/ListViewListener.class
+* out/production/MyReader/cn/org/silencewing/reader/util/PhoneListener.class
+* out/production/MyReader/cn/org/silencewing/reader/util/PhoneStatReceiver.class
+* out/production/MyReader/cn/org/silencewing/reader/util/PlayHelper.class
+* out/production/MyReader/cn/org/silencewing/reader/util/PropertyUtil$Config.class
+* out/production/MyReader/cn/org/silencewing/reader/util/PropertyUtil.class
+* out/production/MyReader/cn/org/silencewing/reader/util/RemoteControlReceiver.class
+* out/production/MyReader/cn/org/silencewing/reader/util/TextListAdapter.class
+* out/production/MyReader/cn/org/silencewing/reader/util/TextUtil.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/
+* out/production/MyReader/cn/org/silencewing/reader/widget/ColorPickerDialog$ColorPickerView.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/ColorPickerDialog$OnColorChangedListener.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/ColorPickerDialog.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/FileBrowser$1.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/FileBrowser$FileListAdapter.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/FileBrowser.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/OnFileBrowserListener.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/TextListView.class
+* out/production/MyReader/cn/org/silencewing/reader/widget/TextViewer.class
+* out/production/MyReader/cn/org/silencewing/util/
+* out/production/MyReader/cn/org/silencewing/util/GestureListner.class
+* out/production/MyReader/cn/org/silencewing/util/GlobalConfig.class
+* out/production/MyReader/cn/org/silencewing/util/GlobalUtil$AnimMode.class
+* out/production/MyReader/cn/org/silencewing/util/GlobalUtil$GlobalUtilHolder.class
+* out/production/MyReader/cn/org/silencewing/util/GlobalUtil.class
+* out/production/MyReader/cn/org/silencewing/util/IndexHelper.class
+* out/production/MyReader/cn/org/silencewing/util/ListViewListner.class
+* out/production/MyReader/cn/org/silencewing/util/PhoneListener.class
+* out/production/MyReader/cn/org/silencewing/util/PhoneStatReceiver.class
+* out/production/MyReader/cn/org/silencewing/util/PropertyUtil$Config.class
+* out/production/MyReader/cn/org/silencewing/util/PropertyUtil.class
+* out/production/MyReader/cn/org/silencewing/util/TextListAdapter.class
+* out/production/MyReader/cn/org/silencewing/util/TextUtil.class
+* out/production/MyReader/cn/org/silencewing/widget/
+* out/production/MyReader/cn/org/silencewing/widget/FileBrowser$FileListAdapter.class
+* out/production/MyReader/cn/org/silencewing/widget/FileBrowser.class
+* out/production/MyReader/cn/org/silencewing/widget/OnFileBrowserListener.class
+* out/production/MyReader/cn/org/silencewing/widget/TextListView.class
+* out/production/MyReader/cn/org/silencewing/widget/TextViewer.class
+* out/res-cache/
+* out/res-cache/AndroidTtsSample/
+* out/res-cache/AndroidTtsSample/drawable/
+* out/res-cache/AndroidTtsSample/drawable/bg.png
+* out/res-cache/AndroidTtsSample/drawable/cat.png
+* out/res-cache/AndroidTtsSample/drawable/folder.png
+* out/res-cache/AndroidTtsSample/drawable/other.png
+* out/res-cache/AndroidTtsSample/drawable/txt.png
+* out/res-cache/AndroidTtsSample/drawable/why.png
+* out/res-cache/MyReader/
+* out/res-cache/MyReader/drawable-hdpi/
+* out/res-cache/MyReader/drawable-hdpi/Thumbs.db
+* out/res-cache/MyReader/drawable-hdpi/ic_launcher.png
+* out/res-cache/MyReader/drawable-ldpi/
+* out/res-cache/MyReader/drawable-ldpi/ic_launcher.png
+* out/res-cache/MyReader/drawable-mdpi/
+* out/res-cache/MyReader/drawable-mdpi/ic_launcher.png
+* out/res-cache/MyReader/drawable/
+* out/res-cache/MyReader/drawable/Thumbs.db
+* out/res-cache/MyReader/drawable/bg.png
+* out/res-cache/MyReader/drawable/book.png
+* out/res-cache/MyReader/drawable/cat.png
+* out/res-cache/MyReader/drawable/folder.png
+* out/res-cache/MyReader/drawable/other.png
+* out/res-cache/MyReader/drawable/txt.png
+* out/res-cache/MyReader/drawable/why.png
+* proguard-project.txt
+* project
+* seekbar_style.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
