@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <cn.org.silencewing.reader.widget.TextViewer
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:textIsSelectable="false"
+        android:longClickable="true"
+        android:bufferType="spannable"
+        android:editable="false"
+        android:cursorVisible="true"
+        android:singleLine="false"
+        android:layout_gravity="center"
+        android:text="" />
+
+  <!--   android:includeFontPadding="false" -->
+
+</LinearLayout>

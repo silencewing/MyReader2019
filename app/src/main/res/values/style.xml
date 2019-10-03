@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources xmlns:android="http://schemas.android.com/apk/res/android">  
+    <color name="transparent_background">#00ffffff</color>
+    
+    <color name="transparent_frontBackground">#00ffffff</color>
+    <color name="normalTextColor">#ffffff</color>      
+    <style name="myButtonStyle">  
+       
+       <item name="android:windowBackground">@color/transparent_background</item>
+       <item name="android:gravity">center</item>
+       <item name="android:background">@color/transparent_background</item>   
+       <item name="android:textColor">@color/normalTextColor</item> 
+       <item name="android:textSize">15sp</item>   
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">42dp</item>
+       <item name="android:layout_weight">1</item>
+       <item name="android:layout_margin">0dp</item>
+       <item name="android:padding">0dp</item>
+     </style>  
+     <style name="myLayoutStyle">
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:padding">0dp</item>
+         <item name="android:layout_margin">0dp</item>
+         <item name="android:gravity">center</item> 
+         <!-- item name="android:background">@drawable/frame</item>  -->
+	</style>
+	 <style name="myEditTextStyle">  
+         <item name="android:windowBackground">@color/transparent_background</item>
+       <item name="android:gravity">left</item>
+       <item name="android:background">@color/transparent_background</item>   
+       <item name="android:textColor">@color/normalTextColor</item> 
+       <item name="android:textSize">15sp</item>   
+         <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">42dp</item>
+       <item name="android:layout_weight">1</item>
+       <item name="android:layout_margin">0dp</item>
+       <item name="android:padding">0dp</item>
+    </style>
+    <style name="mySeekBarStyle">  
+       
+       <item name="android:paddingLeft">8dip</item>
+       <item name="android:paddingRight">8dip</item> 
+       <item name="android:paddingTop">0dip</item>
+       <item name="android:paddingBottom">0dip</item> 
+       <item name="android:layout_margin">0dp</item>   
+       <item name="android:minHeight">3dip</item>   
+       <item name="android:maxHeight">3dip</item>
+          
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+      
+     </style>  
+ 	<style name="myNumberPickerStyle"> 
+ 	    
+       <item name="android:layout_width">match_parent</item>
+       <item name="android:layout_height">wrap_content</item>
+      
+     </style>    
+</resources>  

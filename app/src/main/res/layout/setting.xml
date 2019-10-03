@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:id="@+id/footerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#a0000000"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+			style="@style/myLayoutStyle">
+            	<Button
+  			    android:id="@+id/textColorBtn"
+  			    style="@style/myButtonStyle"
+  			    android:onClick="setTextColor"
+  			    android:text="前景色" />
+            	<Button
+  			    android:id="@+id/backgroundColorBtn"
+  			    style="@style/myButtonStyle"
+  			    android:onClick="setBackgroundColor"
+  			    android:text="背景色" />
+            
+        </LinearLayout>
+        
+        <LinearLayout style="@style/myLayoutStyle">
+         
+
+  <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="语速"/>
+            <SeekBar
+                    android:id="@+id/speechRateSeek"
+					style="@style/mySeekBarStyle"
+					android:layout_weight="1"
+                    android:max="20"
+                    android:progress="10"/>
+        </LinearLayout>
+
+        <LinearLayout 
+                style="@style/myLayoutStyle">
+          
+                       
+  			<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="缩放"/>
+                <SeekBar
+                    android:id="@+id/textSizeSeek"
+					style="@style/mySeekBarStyle"
+					android:layout_weight="1"
+                    android:max="30"
+                    android:progress="12"/>
+          
+        
+
+
+        </LinearLayout>
+        <LinearLayout
+                style="@style/myLayoutStyle">
+            
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="段距"/>
+                <SeekBar
+                    android:id="@+id/itemPadSeek"
+					style="@style/mySeekBarStyle"
+					android:layout_weight="1"
+                    android:max="50"
+                    android:progress="0"/>
+                      
+        	</LinearLayout>
+           <LinearLayout
+				style="@style/myLayoutStyle">
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="行距"/>
+                <SeekBar
+                    android:id="@+id/lineSpaceSeek"
+					style="@style/mySeekBarStyle"
+					android:layout_weight="1"
+                    android:max="30"
+                    android:progress="0"/>
+             </LinearLayout>
+             <LinearLayout
+				style="@style/myLayoutStyle">
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="快进"/>
+                <SeekBar
+                    android:id="@+id/seekStepSeek"
+					style="@style/mySeekBarStyle"
+					android:layout_weight="1"
+                    android:max="10"
+                    android:progress="1"/>
+              </LinearLayout>
+            <LinearLayout
+				style="@style/myLayoutStyle">
+                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:text="目录"/>
+
+                 <EditText
+                     android:id="@+id/root"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:height="10dp"
+                     android:ems="10" >
+
+                     <requestFocus />
+                 </EditText>
+               
+              </LinearLayout>
+             <LinearLayout
+				style="@style/myLayoutStyle">
+
+                 <CheckBox
+                     android:id="@+id/volumeToCtrl"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="音量控制进退" />
+
+                 <CheckBox
+                         android:id="@+id/exchangePreNext"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="进退互换" />
+              </LinearLayout>
+              
+           <LinearLayout
+				style="@style/myLayoutStyle">
+                  <Button
+                    android:id="@+id/confirmBtn"
+  			  		style="@style/myButtonStyle"
+                    android:onClick="confirm"
+                    android:text="确定"/>
+                  <Button
+                    android:id="@+id/cancelBtn"
+  			  		style="@style/myButtonStyle"
+                    android:onClick="cancel"
+                    android:text="取消"/>
+           </LinearLayout>
+    </LinearLayout>
+
+</merge>

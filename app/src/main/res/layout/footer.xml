@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+            android:id="@+id/footerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#a0000000"
+            android:orientation="vertical">
+
+        
+  		 <LinearLayout
+             android:id="@+id/locateLayout"
+              style="@style/myLayoutStyle"
+              android:visibility="gone"
+              android:orientation="vertical">
+	
+	  		 <LinearLayout
+	              style="@style/myLayoutStyle"
+	                android:layout_margin="0dp">
+	
+	            <SeekBar
+	                android:id="@+id/listSeek"
+	                android:max="100"
+	                style="@style/mySeekBarStyle"
+	                android:progress="1" />
+	          
+	        </LinearLayout>
+	         <!--   android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_margin="1dp" -->
+          <RelativeLayout
+              style="@style/myLayoutStyle"
+             
+                android:gravity="center"
+            android:orientation="horizontal">
+	
+	       <EditText
+	           android:id="@+id/searchKey"
+	   		    style="@style/myButtonStyle"
+	   		    android:layout_width="match_parent"
+	   		    android:gravity="left|center_vertical"
+	           android:hint="请输入搜索关键字..."
+	           android:inputType="text"
+	           android:text=""/>
+	
+	   		<Button
+	   		    android:id="@+id/searchBtn"
+	   		    style="@style/myButtonStyle"
+	   		    android:layout_width="wrap_content"
+	   		    android:onClick="search"
+	   		    android:text="搜索" 
+	   		    android:layout_alignRight="@id/searchKey"/>
+	
+	       </RelativeLayout>
+  		</LinearLayout>
+  		
+  		 <!-- 
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" -->
+        <LinearLayout
+            style="@style/myLayoutStyle">
+
+  			
+             <Button
+  			    android:id="@+id/lockBtn"
+  			    style="@style/myButtonStyle"
+  			    android:onClick="lock"
+  			    android:text="X" />
+  			<!-- Button
+  			    android:id="@+id/exitBtn"
+  			    style="@style/myButtonStyle"
+  			    android:onClick="exit"
+  			    android:text="X" />
+           -->
+             <Button
+                    android:id="@+id/playBtn"
+  			    style="@style/myButtonStyle"
+  			        android:onClick="changePlay"
+                    android:text=">"/>
+             <Button
+                    android:id="@+id/historyBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="historyBrower"
+                    android:text="历"/>
+
+            <!--Button
+                    android:id="@+id/saveBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="save"
+                    android:text="存"/>
+                  <Button
+                    android:id="@+id/fileBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="fileBrower"
+                    android:text="..."/>
+          
+            <Button
+                    android:id="@+id/loadBtn"
+  			    style="@style/myButtonStyle"
+  			        android:onClick="load"
+                    android:text="取"/-->
+         
+        
+         <Button
+                    android:id="@+id/changeSearchBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="changeSearch"
+                    android:text="位"/>
+          
+  			<Button
+                    android:id="@+id/volumeBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="volumeSettings"
+                    android:text="音"/>
+  			<Button
+                    android:id="@+id/registerBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="register"
+                    android:text="注"/>
+  			  <Button
+                    android:id="@+id/ttsBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="toTtsSettings"
+                    android:text="擎"/>
+    		<Button
+                    android:id="@+id/toSettingBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="toSetting"
+                    android:text="设"/>
+            <Button
+                    android:id="@+id/helpBtn"
+  			    style="@style/myButtonStyle"
+                    android:onClick="help"
+                    android:text="？"/>
+        </LinearLayout>
+      
+        
+    </LinearLayout>
+
+</merge>
