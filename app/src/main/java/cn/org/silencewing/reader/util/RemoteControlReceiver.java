@@ -70,7 +70,10 @@ public class RemoteControlReceiver extends BroadcastReceiver {
            
             case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
             	playPre(context);break;
-           
+
+
+            case KeyEvent.KEYCODE_MEDIA_FAST_FORWARD:
+                 playNext(context);break;
             case KeyEvent.KEYCODE_HEADSETHOOK:
             	changePlay(context);break;
             case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:

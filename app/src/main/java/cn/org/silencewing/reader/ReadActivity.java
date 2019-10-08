@@ -811,16 +811,18 @@ public class ReadActivity extends Activity {
 
     static GlobalConfig config = GlobalConfig.getInstance();
     public void playNext(View view){
-        if(!config.isExchangePreNext())
             playNext(config.getSeekStep());
-        else
-            playNext(-config.getSeekStep());
+//        if(!config.isExchangePreNext())
+//            playNext(config.getSeekStep());
+//        else
+//            playNext(-config.getSeekStep());
     }
     public void playPre(View view){
-        if(!config.isExchangePreNext())
             playNext(-config.getSeekStep());
-        else
-            playNext(config.getSeekStep());
+//        if(!config.isExchangePreNext())
+//            playNext(-config.getSeekStep());
+//        else
+//            playNext(config.getSeekStep());
     }
     public void playNext(int seekStep) {
        

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Oct 04 02:20:11 CST 2019
+#Tue Oct 08 22:43:52 CST 2019
 8.set=DEX
 1.base=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_
 1.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/main.xml
@@ -11,7 +11,7 @@
 5.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable/frame.xml
 7.base=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_
 7.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/AndroidManifest.xml
-11.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable/book.png
+11.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/resources.arsc
 11.base=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_
 9.base=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_
 9.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable/normal.xml
@@ -44,7 +44,7 @@
 8.base=/home/qw/src/MyReader2019/app/build/intermediates/transforms/dexMerger/debug/0
 8.file=/home/qw/src/MyReader2019/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
 2.set=ANDROID_RESOURCE
-12.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/resources.arsc
+12.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable/book.png
 12.base=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_
 14.file=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable/other.png
 14.base=/home/qw/src/MyReader2019/app/build/intermediates/res/debug/resources-debug.ap_

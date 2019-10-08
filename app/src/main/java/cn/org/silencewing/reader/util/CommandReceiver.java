@@ -36,11 +36,19 @@ public class CommandReceiver  extends BroadcastReceiver{
 			
 			if(Intents.CMDNEXT.equals(cmd)|| Intents.ACTION_CMD_NEXT.equals(action))
 			{
-				this.context.playNext(config.getSeekStep());
+				if(!config.isExchangePreNext())
+					this.context.playNext(config.getSeekStep());
+				else
+					this.context.playNext(-config.getSeekStep());
+				//this.context.playNext(config.getSeekStep());
 			}
 			if(Intents.CMDPREVIOUS.equals(cmd)|| Intents.ACTION_CMD_PREV.equals(action))
 			{
-				this.context.playNext(-config.getSeekStep());
+				if(!config.isExchangePreNext())
+					this.context.playNext(-config.getSeekStep());
+				else
+					this.context.playNext(config.getSeekStep());
+				//this.context.playNext(-config.getSeekStep());
 			}
 			if(Intents.CMDPAUSE.equals(cmd)|| Intents.ACTION_CMD_PAUSE.equals(action))
 			{
