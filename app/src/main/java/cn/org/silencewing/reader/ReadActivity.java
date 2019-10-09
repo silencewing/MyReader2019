@@ -160,10 +160,13 @@ public class ReadActivity extends Activity {
     	{
 	        IntentFilter intentFilter = new IntentFilter();
 	        intentFilter.addAction(TelephonyManager.ACTION_PHONE_STATE_CHANGED);
+//	        intentFilter.addAction(Intent.LISTEN_CALL_STATE);
 	        intentFilter.addAction(Intent.ACTION_NEW_OUTGOING_CALL);
-	        //intentFilter.addAction(AudioManager.ACTION_AUDIO_BECOMING_NOISY);
+//	        intentFilter.addAction(AudioManager.ACTION_AUDIO_BECOMING_NOISY);
 	        phoneStatReceiver = new PhoneStatReceiver(this);
 	        this.registerReceiver(phoneStatReceiver,intentFilter);
+//            TelephonyManager manager = (TelephonyManager) this.getSystemService(TELEPHONY_SERVICE);
+//            manager.listen(phoneStatReceiver, PhoneStateListener.LISTEN_CALL_STATE);
     	}
 		
        

@@ -40,6 +40,7 @@ public class PhoneStatReceiver extends BroadcastReceiver {
                 case TelephonyManager.CALL_STATE_IDLE:
                 	 this.context.stop();
                     break;
+
             }
         }
     }

@@ -2,11 +2,14 @@ package cn.org.silencewing.reader.util;
 
 import cn.org.silencewing.reader.Intents;
 import cn.org.silencewing.reader.ReadActivity;
+
+import android.app.Service;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.AudioManager.OnAudioFocusChangeListener;
+import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.KeyEvent;
 
@@ -44,6 +47,7 @@ public class RemoteControlReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent)
     {
+
         // 获得Action 
         String intentAction = intent.getAction(); 
         // 获得KeyEvent对象 

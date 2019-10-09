@@ -1,4 +1,0 @@
-#Tue Oct 08 23:03:44 CST 2019
-base.0=/home/qw/src/MyReader2019/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-file.0=/home/qw/src/MyReader2019/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
