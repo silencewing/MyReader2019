@@ -1,148 +1,143 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
-MERGED from [com.android.support:support-v4:23.4.0] /home/qw/.gradle/caches/transforms-2/files-2.1/b5b5d211c9458ca95fc994082dad01f1/support-v4-23.4.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:1-65:12
 	package
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:3:11-46
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:3:11-46
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:6:11-44
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:6:11-44
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:5:11-34
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:5:11-34
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
 	android:theme
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:4:11-69
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:4:11-69
 uses-sdk
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
-MERGED from [com.android.support:support-v4:23.4.0] /home/qw/.gradle/caches/transforms-2/files-2.1/b5b5d211c9458ca95fc994082dad01f1/support-v4-23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /home/qw/.gradle/caches/transforms-2/files-2.1/b5b5d211c9458ca95fc994082dad01f1/support-v4-23.4.0/AndroidManifest.xml:20:5-43
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
-INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
+INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
 	android:targetSdkVersion
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:15-44
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:15-44
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
-		INJECTED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:8:5-47
+		INJECTED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:9:5-80
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:10:5-91
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:10:5-91
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:10:22-72
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:10:22-72
 uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:11:5-97
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:11:5-97
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:11:22-78
 uses-permission#android.permission.BLUETOOTH
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:12:5-68
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:12:22-65
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.RESTART_PACKAGES
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:13:5-75
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:13:5-75
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:13:22-72
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:13:22-72
 application
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:15:5-64:19
-MERGED from [com.android.support:support-v4:23.4.0] /home/qw/.gradle/caches/transforms-2/files-2.1/b5b5d211c9458ca95fc994082dad01f1/support-v4-23.4.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /home/qw/.gradle/caches/transforms-2/files-2.1/b5b5d211c9458ca95fc994082dad01f1/support-v4-23.4.0/AndroidManifest.xml:22:5-20
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:15:5-64:19
 	android:label
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:18:13-45
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:18:13-45
 	android:icon
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:17:13-42
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:17:13-42
 	android:allowBackup
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:16:9-35
 activity#cn.org.silencewing.reader.ReadActivity
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:19:9-28:20
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:19:9-28:20
 	android:launchMode
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:21:45-76
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:21:45-76
 	android:configChanges
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:20:17-67
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:20:17-67
 	android:icon
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:22:17-46
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:22:17-46
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:21:17-44
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:21:17-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:24:17-68
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:24:17-68
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:25:17-76
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:25:17-76
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:25:27-74
 activity#cn.org.silencewing.reader.FileBrowserActivity
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:29:9-31:62
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:29:9-31:62
 	android:theme
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:31:17-60
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:31:17-60
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:30:17-51
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:30:17-51
 activity#cn.org.silencewing.reader.SettingActivity
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:33:9-35:62
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:33:9-35:62
 	android:theme
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:35:17-60
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:35:17-60
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:34:17-47
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:34:17-47
 receiver#cn.org.silencewing.reader.util.RemoteControlReceiver
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:36:9-40:14
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:36:9-40:14
 	android:enabled
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:36:62-84
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:36:62-84
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:36:19-61
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:36:19-61
 intent-filter#action:name:android.intent.action.MEDIA_BUTTON
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:37:5-39:21
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:37:5-39:21
 action#android.intent.action.MEDIA_BUTTON
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:38:11-70
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:38:11-70
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:38:19-68
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:38:19-68
 receiver#cn.org.silencewing.reader.util.AudioReceiver
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:41:5-45:14
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:41:5-45:14
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:41:15-49
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:41:15-49
 intent-filter#action:name:android.media.AUDIO_BECOMING_NOISY
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:42:5-44:21
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:42:5-44:21
 action#android.media.AUDIO_BECOMING_NOISY
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:43:12-71
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:43:12-71
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:43:20-69
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:43:20-69
 receiver#cn.org.silencewing.reader.util.AdminReceiver
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:51:9-63:20
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:51:9-63:20
 	android:label
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:54:13-45
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:54:13-45
 	android:permission
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:55:13-70
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:55:13-70
 	android:description
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:53:13-51
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:53:13-51
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:52:13-47
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:52:13-47
 meta-data#android.app.device_admin
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:56:13-58:55
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:56:13-58:55
 	android:resource
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:58:17-52
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:58:17-52
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:57:17-56
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:57:17-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:60:13-62:29
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:60:13-62:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:61:17-82
+ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:61:17-82
 	android:name
-		ADDED from /home/qw/src/MyReader2019/app/src/main/AndroidManifest.xml:61:25-79
+		ADDED from /home/qw/data/src/MyReader2019/app/src/main/AndroidManifest.xml:61:25-79

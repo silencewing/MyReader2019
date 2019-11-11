@@ -33,6 +33,7 @@
         <activity
                 android:name="SettingActivity"
                 android:theme="@android:style/Theme.Dialog"/>
+
         <receiver android:name=".util.RemoteControlReceiver" android:enabled="true"> 
 		  <intent-filter> 
 		        <action android:name="android.intent.action.MEDIA_BUTTON"/>

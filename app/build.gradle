@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 28
     buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "cn.org.silencewing.reader"
-        minSdkVersion 14
-        targetSdkVersion 23
+        minSdkVersion 23
+        targetSdkVersion 28
     }
 
     buildTypes {
@@ -19,5 +19,4 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:23.+'
 }
