@@ -142,7 +142,7 @@ public class ReadActivity extends Activity {
 	     if(policyManager == null)
 	      	policyManager = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
 	     if(componentLockName == null)
-	        componentLockName = new ComponentName(this, AdminReceiver.class); 
+	        componentLockName = new ComponentName(ReadActivity.this, AdminReceiver.class);
 	        
 	     //activeManager();
 	     
@@ -230,8 +230,11 @@ public class ReadActivity extends Activity {
     	if (android.os.Build.VERSION.SDK_INT >= 8)
     	{
     		//eventReceiver = new ComponentName(getP); 
-    	 eventReceiver = new ComponentName(getPackageName(),RemoteControlReceiver.class.getName()); 
-         //audioManager.registerMediaButtonEventReceiver(eventReceiver);
+    	 //eventReceiver = new ComponentName(getPackageName(),RemoteControlReceiver.class.getName());
+
+         eventReceiver = new ComponentName(ReadActivity.this,RemoteControlReceiver.class);
+
+            //audioManager.registerMediaButtonEventReceiver(eventReceiver);
          registerRemoteControl();
 
          //receiver = new ControlReceiver();
@@ -1147,7 +1150,7 @@ public class ReadActivity extends Activity {
 
     		 //activeManager();
             // toLock = false;
-             policyManager.lockNow(); 
+             policyManager.lockNow();
              //policyManager.removeActiveAdmin(componentName);
             // android.os.Process.killProcess(android.os.Process.myPid()); 
          } 
